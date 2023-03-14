@@ -74,8 +74,9 @@
     });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+    
+    // themes carousel
+    $(".theme-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
         dots: true,
@@ -95,6 +96,16 @@
                 items:3
             }
         }
+    });
+
+
+    //FAQ
+    const buttons = document.querySelectorAll(".faq-toggle");
+
+        buttons.forEach((button) => {
+        button.addEventListener("click", () =>
+            button.parentElement.classList.toggle("active")
+        );
     });
 
 
