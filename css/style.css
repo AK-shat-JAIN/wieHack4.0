@@ -321,6 +321,8 @@ h6,
     
     height: auto;
     z-index: 1;
+
+    background: #000000ad;
 }
 
 @media (max-width: 576px) {
@@ -764,6 +766,7 @@ h6,
     background-color: #f9eaf7;
     width: 50%;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .name{
