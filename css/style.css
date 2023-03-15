@@ -140,7 +140,7 @@ h6,
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark);
+    color: white;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -160,7 +160,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #FFFFFF;
+        background: #000000;
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -187,7 +187,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #000000;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
@@ -687,7 +687,7 @@ h6,
 /***FAQ***/
 
 .faq-container {
-  max-width: 600px;
+  max-width: 85%;
   margin: 0 auto;
   border-radius: 10px;
   background-color: #fff;
