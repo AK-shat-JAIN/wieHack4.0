@@ -137,6 +137,9 @@ h6,
     outline: none;
     transition: .5s;
 }
+.navbar-dark {
+    background-color: black;
+}
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
@@ -167,7 +170,7 @@ h6,
     .navbar-dark .navbar-nav .nav-link.show,
     .sticky-top.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: var(--dark);
+        color: white;
     }
 
     .navbar-dark .navbar-brand h1 {
@@ -183,6 +186,7 @@ h6,
         left: 0;
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
+        background-color: black;
     }
     
     .sticky-top.navbar-dark {
