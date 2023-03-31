@@ -124,6 +124,10 @@ h6,
     text-align: center;
 }
 
+/* .bg-peach{
+    background-color:#f77963;
+} */
+
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
@@ -338,6 +342,10 @@ h6,
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
+    }
+
+    .powered{
+        font-size: 10px;
     }
 }
 /*** Section Title ***/
