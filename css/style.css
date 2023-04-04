@@ -57,11 +57,16 @@
     opacity: 1;
 }
 
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
 
 /*** Heading ***/
 h1,
 h2,
 .fw-bold {
+    font-family: 'Montserrat',sans-serif;
     font-size: 2rem;
     font-weight: 800 !important;
 }
@@ -69,12 +74,14 @@ h2,
 h3,
 h4,
 .fw-semi-bold {
+    font-family: 'Montserrat',sans-serif;
     font-weight: 700 !important;
 }
 
 h5,
 h6,
 .fw-medium {
+    font-family: 'Montserrat',sans-serif;
     font-weight: 600 !important;
 }
 
