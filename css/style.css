@@ -988,4 +988,8 @@ h6,
     .footer-section{
         margin-top: 10rem;
     }
+
+    .hero-bg-image{
+        width: 40rem !important;
+    }
 }
