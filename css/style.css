@@ -440,6 +440,11 @@ h6,
         font-weight: 500 !important;
     }
 
+    .carousel-caption h6 {
+        font-size: 12px;
+        font-weight: 500 !important;
+    }
+
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
@@ -902,7 +907,6 @@ h6,
 /***FOOTER***/
 
 #footer-section {
-    margin-top: 10rem;
     height: 25vh;
     background-color: black;
     padding-bottom: 20px;
@@ -987,7 +991,7 @@ h6,
 @media  (max-width: 500px ) {
 
     .footer-section{
-        margin-top: 10rem;
+        padding-bottom: 20px;
     }
 
     .hero-bg-image{
