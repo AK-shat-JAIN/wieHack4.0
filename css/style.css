@@ -1026,4 +1026,8 @@ h6,
         width: 45rem !important;
         margin-left: -9rem;
     }
+
+    .carousel{
+        padding-top: 7rem !important;
+    }
 }
