@@ -3,6 +3,15 @@ const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 let carsouselImages = document.querySelectorAll('.img-carousel div');
 
+$(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
+
 //Next Carousel
 const nextCarousel = () => {
     if(carsouselImages[carsouselImages.length - 1]) {
@@ -136,7 +145,7 @@ window.addEventListener('resize', () => {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
         } else {
-            $('.back-to-top').fadeOut('slow');
+            $('.back-to-top').fadeOut('');
         }
     });
     $('.back-to-top').click(function () {
