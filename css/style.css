@@ -5,7 +5,10 @@
     --light: #f9eaf7;
     --dark: #091E3E;
 }
-
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
 @font-face {
     font-family: 'Zaptron';
     font-weight: normal;
