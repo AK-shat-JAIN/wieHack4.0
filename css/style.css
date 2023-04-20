@@ -337,6 +337,45 @@ h6,
     }
 }   
 
+
+/*** gallery ***/
+.gallery-carousel .owl-dots {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.gallery-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: #DDDDDD;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.gallery-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--primary);
+}
+
+.gallery-carousel .owl-item.center {
+    position: relative;
+    z-index: 1;
+}
+
+.gallery-carousel .owl-item .gallery-item {
+    transition: .5s;
+}
+
+.gallery-carousel .owl-item.center .gallery-item {
+    background: #FFFFFF !important;
+    box-shadow: 0 0 30px #DDDDDD;
+}
+
 /*** Theme ***/
 .theme-carousel .owl-dots {
     margin-top: 15px;
