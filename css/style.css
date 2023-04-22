@@ -396,6 +396,81 @@ h6,
     box-shadow: 0 0 30px #DDDDDD;
 }
 
+
+/* technologies */
+.technologies {
+
+    padding: 10px 5px;
+    text-align: center;
+    position: relative;
+
+    padding: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #ffffff;
+
+}
+
+.technologies {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.technologies {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+.technology {
+
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    color: black;
+}
+
+.technology {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.technology {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.technologyimg {
+    width: 40%;
+}
+
+@media (max-width: 767px) {
+    .technologyimg {
+        width: 100%;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+
 /*** Carousel ***/
 .carousel-caption {
     top: 0;
