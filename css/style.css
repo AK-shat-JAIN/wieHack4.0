@@ -152,7 +152,7 @@ h6,
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Nunito', sans-serif;
     position: relative;
-    margin-left: 25px;
+    margin-left: 55px;
     padding: 35px 0;
     color: #FFFFFF;
     font-size: 18px;
@@ -812,7 +812,7 @@ h6,
 }
 
 #team-href{
-  color: #61b187;
+  color: #ef67bb;
 }
 
 
