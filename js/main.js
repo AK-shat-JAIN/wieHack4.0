@@ -145,6 +145,29 @@ $(document).click(function (event) {
         );
     });
 
+    // Sponsors carousel
+    $('.sponsors-carousel').owlCarousel({
+        loop: true,
+        margin: 60,
+        dots: false,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsive: {
+            0:{
+                items:2
+            },
+            576:{
+                items:3
+            },
+            768:{
+                items:4
+            },
+            992:{
+                items:5
+            }
+        }
+    });
 
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({
