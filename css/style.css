@@ -409,6 +409,12 @@ h6,
     box-shadow: 0 0 30px #DDDDDD;
 }
 
+@media screen and (max-width: 800px) {
+    .owl-dot{
+        display: none;
+    }
+}
+
 
 /* technologies */
 .technologies {
@@ -416,7 +422,6 @@ h6,
     padding: 10px 5px;
     text-align: center;
     position: relative;
-
     padding: 5px;
     margin: 0 auto;
     overflow: hidden;
@@ -427,11 +432,30 @@ h6,
 .technologies {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-
-.technologies {
     animation-name: fade;
     animation-duration: 1s;
+}
+
+.technology {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    color: black;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+.technologyimg {
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .technologyimg {
+        width: 100%;
+    }
 }
 
 @keyframes fade {
@@ -440,36 +464,6 @@ h6,
     }
     to {
         opacity: 1
-    }
-}
-
-
-.technology {
-
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
-    color: black;
-}
-
-.technology {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.technology {
-    animation-name: fade;
-    animation-duration: 1s;
-}
-
-.technologyimg {
-    width: 40%;
-}
-
-@media (max-width: 767px) {
-    .technologyimg {
-        width: 100%;
     }
 }
 
@@ -520,20 +514,21 @@ h6,
 /*** Section Title ***/
 .timeline {
     position: relative;
-    padding: 10px;
     margin: 0 auto;
     overflow: hidden;
     color: #ffffff;
 }
-
-
 .timeline{
     text-align: center;
 }
 .timelineimg{
     width: 90%;
 }
-
+@media screen and (max-width: 575px){
+    .timelineimg{
+        width: 100%;
+    }
+}
 
 
 /*** Section Title ***/
