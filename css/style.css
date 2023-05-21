@@ -183,6 +183,10 @@ h6,
     border-color: var(--primary) !important;
 }
 
+#bvpieeepic{
+    width: 140px;
+}
+
 @media (max-width: 991.98px) {
     .navbar-dark {
         position: absolute;
@@ -258,6 +262,9 @@ h6,
     }
     .img-carousel div  {
         width: 100%;
+    }
+    #bvpieeepic{
+        width: 80px;
     }
 }   
 
@@ -836,4 +843,11 @@ h6,
     .carousel{
         padding-top: 7rem !important;
     }
+}
+
+
+/* Result Page */
+
+.result_start{
+    margin-top: 112px;
 }
