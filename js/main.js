@@ -97,6 +97,7 @@ $(document).click(function (event) {
         dots: true,
         loop: true,
         center: true,
+        dots:false,
         responsive: {
             0:{
                 items:1
