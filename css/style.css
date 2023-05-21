@@ -186,6 +186,9 @@ h6,
 #bvpieeepic{
     width: 140px;
 }
+#wiehack_logo{
+    width: 80px;
+}
 
 @media (max-width: 991.98px) {
     .navbar-dark {
@@ -265,6 +268,9 @@ h6,
     }
     #bvpieeepic{
         width: 80px;
+    }
+    #wiehack_logo{
+        width: 50px;
     }
 }   
 
@@ -825,7 +831,15 @@ h6,
 
 /* tablets */
 @media  (max-width: 1000px ) {
+    .carousel{
+        padding-top: 6rem !important;
+    }
+}
 
+@media  (max-width: 800px ) {
+    .carousel{
+        padding-top: 5.5rem !important;
+    }
 }
 
 /* mobile-phones */
@@ -839,9 +853,8 @@ h6,
         width: 45rem !important;
         margin-left: -9rem;
     }
-
     .carousel{
-        padding-top: 7rem !important;
+        padding-top: 5rem !important;
     }
 }
 
